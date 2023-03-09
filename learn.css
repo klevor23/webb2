@@ -1,0 +1,207 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+}
+p {
+    color: white;
+    font-family: 'roboto' , sans-serif;
+}
+.heroo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 450px;
+    justify-content: start;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    padding: 3%;
+    box-shadow: -5px -5px 5px  #33333348,5px 5px 5px #8d8d8d48;
+    
+
+}
+h1 {
+    color: #fff;
+    font-size: 200%;
+    font-family: 'roboto', sans-serif;
+    margin-left: 25%;
+}
+span {
+    color: orangered;
+    z-index: -1;
+}
+.details {
+    display: flex;
+    margin-top: 2%;
+}
+.details div p {
+    font-size: 300%;
+    font-weight: 250;
+}
+.details p {
+    margin-top: -15px;
+}
+.pic1 {
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    background-image: url(./photos/IMG_5470.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.director {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 600px;
+    justify-content: start;
+    margin-top: 3%;
+    border-radius: 15px;
+    padding: 3%;
+    box-shadow: -5px -5px 5px  #33333348,5px 5px 5px #8d8d8d48;
+}
+img {
+    height: 160px;
+    width: 176px;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+.director h1 {
+    margin-left: -5%;
+    margin-bottom: 2%;
+}
+.b2 {
+    padding-bottom: 100px;
+    z-index: 30;
+}
+.moreinfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+    background-color: orangered;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.moreinfo p {
+    color: rgb(5, 5, 5);
+}
+.hh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-family: 'roboto' , sans-serif;
+}
+.moreinfo p a {
+    text-decoration: none;
+
+}
+
+.button2 {
+    background: none;
+    margin-top: 20%;
+    padding: 20px;
+    font-weight: 800;
+    border: 6px solid orangered;
+    cursor: pointer;
+    color: orangered;
+    transition: 0.15s;
+    position: relative;
+    overflow: hidden;
+      
+}
+.button2:hover {
+    color: white;
+    background-color: orangered;
+}
+.button2:active {
+    color: #fff;
+    background-color: orangered;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .bubble {
+        height: 200px;
+
+    }
+    .details div p {
+        font-size: 100%;
+        font-weight: 250;
+    }
+    .director .hh h1 {
+        margin-left: 23px;
+        margin-bottom: 2%;
+    }
+    img {
+        margin-left: 19%;
+    }
+    .h4 {
+        color: #fff;
+        font-size: 200%;
+        font-family: 'roboto', sans-serif;
+        margin-left: 15%;
+    }
+    h1 {
+       
+        font-size: 100%;
+        margin-left: 15%;
+    }
+    
+
+    
+}
+@media only screen and (max-width: 800px) {
+    .bubble {
+        height: 200px;
+
+    }
+    .details div p {
+        font-size: 100%;
+        font-weight: 250;
+    }
+    .director h1 {
+        margin-left: -10%;
+        margin-bottom: 2%;
+    }
+    img {
+        margin-left: 19%;
+    }
+    .h4 {
+        color: #fff;
+        font-size: 200%;
+        font-family: 'roboto', sans-serif;
+        margin-left: 15%;
+    }
+    h1 {
+       
+        font-size: 200%;
+        margin-left: 15%;
+    }
+    
+
+    
+}
+h4 {
+    color: #fff;
+    font-size: 110%;
+    font-family: 'roboto', sans-serif;
+    margin-left: 15%;
+}
+
